@@ -9,4 +9,6 @@ Vue.config.productionTip = false;
 import api from './api';
 import animate from './tools/animate';
 import 'lib-flexible';
-import './plugins/vant';
+import Vant from 'vant';
+
+Vue.use(Vant);
